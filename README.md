@@ -10,10 +10,6 @@ Setup
 
 Open multiple browser windows to http://localhost:3000 to test multiple users.
 
-Notes / Known limitations
 
-- Undo/Redo is global LIFO across all users (server pops last op). This is simple but may be surprising if you expected per-user undo.
-- No authentication, no persistence; everything is in-memory.
-- No sophisticated OT/CRDT: ops are applied in server order.
 
-Time spent: ~2 hours to scaffold and implement prototype.
+
